@@ -11,7 +11,7 @@ from PIL import Image
 # -------------------------------------------------------------------------------------
 # Page Configuration:
 
-st.set_page_config(page_title="Is My Banana Ripe?",page_icon=":banana:",layout="wide")
+st.set_page_config(page_title="Is My Banana Ripe? V2",page_icon=":banana:",layout="wide")
 
 # -------------------------------------------------------------------------------------
 # Interface:
