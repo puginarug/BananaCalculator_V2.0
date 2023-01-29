@@ -138,7 +138,8 @@ with output:
     st.header(f"Calculated Status: {status}")
     
     # plot the pie chart
+    fig1, ax1 = plt.subplots()
     colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99', '#BB8BEB']
-    df2.plot.pie(y='percentage', figsize=(5, 5), autopct='%1.1f%%', startangle=90, legend=False, fontsize=14, colors=colors)
-    plt.title("Ripening Level")
-    plt.show()
+    ax1.pie(y='percentage', figsize=(5, 5), autopct='%1.1f%%', startangle=90, legend=False, fontsize=14, colors=colors)
+    ax1.axis
+    st.pyplot(fig1)
