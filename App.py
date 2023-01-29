@@ -139,6 +139,7 @@ with output:
     
     # plot the pie chart
     colors = ['#ff9999','#66b3ff','#99ff99','#ffcc99', '#BB8BEB']
-    df2.plot.pie(y='percentage', figsize=(5, 5), autopct='%1.1f%%', startangle=90, legend=False, fontsize=14, colors=colors)
+    #df2.plot.pie(y='percentage', figsize=(5, 5), autopct='%1.1f%%', startangle=90, legend=False, fontsize=14, colors=colors)
+    st.pie(df2['percentage'])
     plt.title("Ripening Level")
     plt.show()
